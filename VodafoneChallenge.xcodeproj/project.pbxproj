@@ -58,16 +58,40 @@
 		F3DC34A828E32A7500BBEFB0 /* VodafoneChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				F3DC34A928E32A7500BBEFB0 /* AppDelegate.swift */,
-				F3DC34AB28E32A7500BBEFB0 /* SceneDelegate.swift */,
-				F3DC34AD28E32A7500BBEFB0 /* ViewController.swift */,
+				F3DC34C228E32FEA00BBEFB0 /* Controller */,
+				F3DC34C028E32FAD00BBEFB0 /* Model */,
+				F3DC34C128E32FD200BBEFB0 /* View */,
+				F3DC34BA28E32A7600BBEFB0 /* Info.plist */,
+			);
+			path = VodafoneChallenge;
+			sourceTree = "<group>";
+		};
+		F3DC34C028E32FAD00BBEFB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC34B228E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3DC34C128E32FD200BBEFB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				F3DC34AF28E32A7500BBEFB0 /* Main.storyboard */,
 				F3DC34B528E32A7600BBEFB0 /* Assets.xcassets */,
 				F3DC34B728E32A7600BBEFB0 /* LaunchScreen.storyboard */,
-				F3DC34BA28E32A7600BBEFB0 /* Info.plist */,
-				F3DC34B228E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld */,
 			);
-			path = VodafoneChallenge;
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3DC34C228E32FEA00BBEFB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC34A928E32A7500BBEFB0 /* AppDelegate.swift */,
+				F3DC34AD28E32A7500BBEFB0 /* ViewController.swift */,
+				F3DC34AB28E32A7500BBEFB0 /* SceneDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
