@@ -14,6 +14,8 @@
 		F3DC34B428E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3DC34B228E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld */; };
 		F3DC34B628E32A7600BBEFB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DC34B528E32A7600BBEFB0 /* Assets.xcassets */; };
 		F3DC34B928E32A7600BBEFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC34B728E32A7600BBEFB0 /* LaunchScreen.storyboard */; };
+		F3DC34C628E446C500BBEFB0 /* AirlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC34C428E446C500BBEFB0 /* AirlineTableViewCell.swift */; };
+		F3DC34C728E446C500BBEFB0 /* AirlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3DC34C528E446C500BBEFB0 /* AirlineTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F3DC34B528E32A7600BBEFB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3DC34B828E32A7600BBEFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3DC34BA28E32A7600BBEFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DC34C428E446C500BBEFB0 /* AirlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTableViewCell.swift; sourceTree = "<group>"; };
+		F3DC34C528E446C500BBEFB0 /* AirlineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AirlineTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		F3DC34C128E32FD200BBEFB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F3DC34C328E4467A00BBEFB0 /* Custom Cell */,
 				F3DC34AF28E32A7500BBEFB0 /* Main.storyboard */,
 				F3DC34B528E32A7600BBEFB0 /* Assets.xcassets */,
 				F3DC34B728E32A7600BBEFB0 /* LaunchScreen.storyboard */,
@@ -92,6 +97,15 @@
 				F3DC34AB28E32A7500BBEFB0 /* SceneDelegate.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3DC34C328E4467A00BBEFB0 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC34C428E446C500BBEFB0 /* AirlineTableViewCell.swift */,
+				F3DC34C528E446C500BBEFB0 /* AirlineTableViewCell.xib */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DC34C728E446C500BBEFB0 /* AirlineTableViewCell.xib in Resources */,
 				F3DC34B928E32A7600BBEFB0 /* LaunchScreen.storyboard in Resources */,
 				F3DC34B628E32A7600BBEFB0 /* Assets.xcassets in Resources */,
 				F3DC34B128E32A7500BBEFB0 /* Main.storyboard in Resources */,
@@ -169,6 +184,7 @@
 				F3DC34AA28E32A7500BBEFB0 /* AppDelegate.swift in Sources */,
 				F3DC34AC28E32A7500BBEFB0 /* SceneDelegate.swift in Sources */,
 				F3DC34B428E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld in Sources */,
+				F3DC34C628E446C500BBEFB0 /* AirlineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
