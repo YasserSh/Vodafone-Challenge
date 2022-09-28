@@ -53,6 +53,7 @@ extension ViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         airlineTableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "goToDetails", sender: self)
     }
     
 }

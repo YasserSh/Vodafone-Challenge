@@ -77,15 +77,33 @@
                     <navigationItem key="navigationItem" id="EYA-SY-pPW"/>
                     <connections>
                         <outlet property="airlineTableView" destination="8yl-f6-02e" id="Ire-VW-m5B"/>
+                        <segue destination="INP-Xo-MPw" kind="show" identifier="goToDetails" id="pyn-QE-xIZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="97.767857142857139"/>
         </scene>
+        <!--Airline Details-->
+        <scene sceneID="ZTQ-fv-1p3">
+            <objects>
+                <viewController title="Airline Details" id="INP-Xo-MPw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BJo-Aw-D9P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="VSB-mf-xgW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dhy-zR-xPL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0r-HI-T7t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="98"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="zw4-Ya-YMp">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtE-wj-hhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4RS-Us-bsK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fDE-Fy-a5M">
@@ -97,7 +115,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Esj-CP-qoY"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gtE-wj-hhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
         </scene>
