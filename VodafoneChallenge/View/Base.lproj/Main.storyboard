@@ -29,6 +29,9 @@
                                         <buttonConfiguration key="configuration" style="filled" image="SearchIcon" title="">
                                             <color key="baseBackgroundColor" red="0.85240095849999997" green="0.30696395040000002" blue="0.28232431409999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onClickSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g8g-v1-QPV"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -43,20 +46,9 @@
                                     <constraint firstItem="8zw-tO-idV" firstAttribute="leading" secondItem="TVo-i3-faz" secondAttribute="trailing" constant="20" id="qGY-SQ-xIf"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8yl-f6-02e">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8yl-f6-02e">
                                 <rect key="frame" x="0.0" y="168" width="414" height="628"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="sectionIndexBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Sdt-ta-rbS">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sdt-ta-rbS" id="irL-Ca-snS">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYz-fk-LWQ">
                                 <rect key="frame" x="30" y="826" width="354" height="36"/>
@@ -83,6 +75,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EYA-SY-pPW"/>
+                    <connections>
+                        <outlet property="airlineTableView" destination="8yl-f6-02e" id="Ire-VW-m5B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

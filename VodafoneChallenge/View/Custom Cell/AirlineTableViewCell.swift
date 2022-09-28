@@ -9,6 +9,11 @@ import UIKit
 
 class AirlineTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var airlineLogo: UIImageView!
+    
+    
+    @IBOutlet weak var airlineName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
