@@ -17,6 +17,7 @@
 		F3DC34C628E446C500BBEFB0 /* AirlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC34C428E446C500BBEFB0 /* AirlineTableViewCell.swift */; };
 		F3DC34C728E446C500BBEFB0 /* AirlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3DC34C528E446C500BBEFB0 /* AirlineTableViewCell.xib */; };
 		F3DC34CB28E45C7200BBEFB0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC34CA28E45C7200BBEFB0 /* DetailsViewController.swift */; };
+		F3DC34CD28E464E400BBEFB0 /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC34CC28E464E400BBEFB0 /* Airline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F3DC34C428E446C500BBEFB0 /* AirlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTableViewCell.swift; sourceTree = "<group>"; };
 		F3DC34C528E446C500BBEFB0 /* AirlineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AirlineTableViewCell.xib; sourceTree = "<group>"; };
 		F3DC34CA28E45C7200BBEFB0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F3DC34CC28E464E400BBEFB0 /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F3DC34B228E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld */,
+				F3DC34CC28E464E400BBEFB0 /* Airline.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				F3DC34B428E32A7500BBEFB0 /* VodafoneChallenge.xcdatamodeld in Sources */,
 				F3DC34C628E446C500BBEFB0 /* AirlineTableViewCell.swift in Sources */,
 				F3DC34CB28E45C7200BBEFB0 /* DetailsViewController.swift in Sources */,
+				F3DC34CD28E464E400BBEFB0 /* Airline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
