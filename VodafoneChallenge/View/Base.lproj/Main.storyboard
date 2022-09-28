@@ -58,6 +58,13 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYz-fk-LWQ">
+                                <rect key="frame" x="30" y="826" width="354" height="36"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add New Airline">
+                                    <color key="baseBackgroundColor" red="0.85240095849999997" green="0.30696395040000002" blue="0.28232431409999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -66,9 +73,13 @@
                             <constraint firstAttribute="trailing" secondItem="8yl-f6-02e" secondAttribute="trailing" id="FAh-3f-ZYr"/>
                             <constraint firstAttribute="bottom" secondItem="8yl-f6-02e" secondAttribute="bottom" constant="100" id="KUP-x1-x7V"/>
                             <constraint firstItem="8yl-f6-02e" firstAttribute="top" secondItem="oQe-hH-lON" secondAttribute="bottom" id="O1n-tg-yIj"/>
+                            <constraint firstItem="PYz-fk-LWQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="aTe-jK-AwL"/>
+                            <constraint firstItem="PYz-fk-LWQ" firstAttribute="top" secondItem="8yl-f6-02e" secondAttribute="bottom" constant="30" id="dnh-Gl-MEu"/>
+                            <constraint firstItem="PYz-fk-LWQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ebD-JG-SZs"/>
                             <constraint firstItem="8yl-f6-02e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="g98-yc-lds"/>
                             <constraint firstItem="oQe-hH-lON" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lrC-6j-pYT"/>
                             <constraint firstItem="oQe-hH-lON" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="lsa-jh-V4j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PYz-fk-LWQ" secondAttribute="trailing" constant="30" id="nwy-3b-RPe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EYA-SY-pPW"/>
